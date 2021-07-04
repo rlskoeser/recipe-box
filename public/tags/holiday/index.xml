@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>holiday on Recipe Box</title>
+    <link>https://koeser.ddns.net/recipebox/tags/holiday/</link>
+    <description>Recent content in holiday on Recipe Box</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Dec 2020 13:25:43 -0500</lastBuildDate>
+    
+	<atom:link href="https://koeser.ddns.net/recipebox/tags/holiday/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cranberry Raisin Pie</title>
+      <link>https://koeser.ddns.net/recipebox/recipes/cranberry-raisin-pie/</link>
+      <pubDate>Mon, 21 Dec 2020 13:25:43 -0500</pubDate>
+      
+      <guid>https://koeser.ddns.net/recipebox/recipes/cranberry-raisin-pie/</guid>
+      <description>You may want to drain the raisins if the juice is not absorbed, because otherwise the pie may spill.
+We like the pie with less sugar because we can taste the fruit more clearly.</description>
+    </item>
+    
+  </channel>
+</rss>

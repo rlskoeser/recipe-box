@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tag3 on Recipe Box</title>
+    <link>https://koeser.ddns.net/recipebox/tags/tag3/</link>
+    <description>Recent content in tag3 on Recipe Box</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 27 Dec 2020 20:12:17 -0500</lastBuildDate>
+    
+	<atom:link href="https://koeser.ddns.net/recipebox/tags/tag3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wendy&#39;s Bagels</title>
+      <link>https://koeser.ddns.net/recipebox/recipes/wendy-bagels/</link>
+      <pubDate>Sun, 27 Dec 2020 20:12:17 -0500</pubDate>
+      
+      <guid>https://koeser.ddns.net/recipebox/recipes/wendy-bagels/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
