@@ -19,19 +19,19 @@ prepTime: 15
 cookTime: 4-7 minutes (per waffle batch)
 
 ingredients:
--   1 large sweet potato cooked (about ¾ cup mashed)
-- 1/2 cup rolled oats
-- 1/2 cup all-purpose flour
-- 1/2 cup milk or kefir
+- 1 large sweet potato cooked (about ¾ cup mashed)
+- ½ cup rolled oats
+- ½ cup all-purpose flour
+- ½ cup milk or kefir
 - 2 eggs
 - 1 teaspoon baking powder
-- 3/4 teaspoon cinnamon
-- 1/4 teaspoon salt
+- ¾ teaspoon cinnamon
+- ¼ teaspoon salt
 - 2 tablespoons raw sugar
 
 directions:
-- Combine cooked sweeat potatoes and oats in a food processor.
-- Add egg and milk to mixture, and process until combined.
+- Combine cooked *sweet potatoes* and *oats* in a food processor.
+- Add *egg* and *milk* to mixture, and process until combined.
 - Add remaining ingredients and process just until combined.
 - Spray waffle iron before cooking. Cook for 4-7 minutes.
 
