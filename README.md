@@ -8,4 +8,6 @@ Powered by [Hugo](https://gohugo.io/) & [gochowdown](https://themes.gohugo.io/th
 
 Use hugo template included with gochowdown to create a new recipe:
 
-`hugo new --kind recipe-bundle recipes/name-of-your-new-recipe`
+```
+hugo new --kind recipe-bundle recipes/name-of-your-new-recipe
+```
