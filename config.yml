@@ -23,3 +23,9 @@ taxonomies:
   category: category
   cusine: cuisine
   tag: tags
+
+params:
+  custom_css:
+    - "fonts/kashanscript/stylesheet.css"
+    - "css/local.css"
+
