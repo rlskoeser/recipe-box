@@ -16,11 +16,11 @@ cuisine: # The region associated with your recipe. For example, "French", Medite
 #  - tag2
 #  - tag3 
 yield: 12 bagels
-prepTime: ??
+prepTime: "??"
 cookTime: "17-20"
 
 ingredients:
-- 1 1/2 tsp. active dry yeast
+- 1½ tsp. active dry yeast
 - 2 T sugar
 - 2 c warm water
 - 6-8 c flour
@@ -28,7 +28,7 @@ ingredients:
 - 1 T sugar
 
 directions:
-- Dissolve **1 1/2 tsp. active dry yeast** and **2 T sugar** in **2 c warm water**.
+- Dissolve **1½ tsp. active dry yeast** and **2 T sugar** in **2 c warm water**.
 - Stir in **6 c flour** to make a stiff dough. Add up to **2 c flour** if dough is wet. 
 - Knead 8 minutes. Dough should be relatively stiff and smooth.
 - Pour about 2 tsp. oil on dough ball and spread oil evenly. 

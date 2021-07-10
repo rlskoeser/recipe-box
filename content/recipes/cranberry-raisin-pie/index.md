@@ -13,26 +13,25 @@ category: dessert
 tags: 
   - pie
   - holiday
-#  - tag3 
 yield: 9 inch pie
-prepTime: ??
+prepTime: "??"
 cookTime: 50
 
 ingredients:
-- 3/4 c seedless raisins
-- 1/2 c hot orange juice
-- 3/4 - 1 1/2 c sugar
-- 1/4 c flour
-- 1/4 t salt
-- 1/4 t cinnamon
+- ¾ c seedless raisins
+- ½ c hot orange juice
+- ¾ - 1½ c sugar
+- ¼ c flour
+- ¼ t salt
+- ¼ t cinnamon
 - 1 T grated orange peel
 - 1 lb cranberries, fresh or frozen, chopped
 - 3 T butter or margarine
 
 directions:
-- In small bowl cover **3/4 c seedless raisins** with **1/2 c hot orange juice**. Let stand 10 min.
+- In small bowl cover **¾ c seedless raisins** with **½ c hot orange juice**. Let stand 10 min.
 - Preheat oven to 425. 
-- In large bowl combine **3/4 - 1 1/2 c sugar**, **1/4 c flour**, **1/4 t salt**, **1/4 t cinnamon**, **1 T grated orange peel**.
+- In large bowl combine **¾- 1½ c sugar**, **¼ c flour**, **¼ t salt**, **¼ t cinnamon**, **1 T grated orange peel**.
 - Stir in raisins with juice and **cranberries**.
 - Turn mixture into pie plate lined with pastry. Dot with **butter**.
 - Cover with pastry, sealing edges. Crimp edges. Slash top in several places to let steam escape, or use a “floating” crust top.
