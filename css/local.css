@@ -1,0 +1,17 @@
+/* local styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navigation a, .navigation span {
+    font-family: 'kaushan_scriptregular';
+    font-size: 1.5em;
+}
+
+
+h1, h2 /* h3 /* h4, h5, h6 */ {
+    font-family: 'kaushan_scriptregular', Helvetica, sans-serif;
+}
