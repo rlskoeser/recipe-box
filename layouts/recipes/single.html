@@ -10,8 +10,8 @@
     {{ $images := resources.Get . }}
 {{ end }}
 {{ $image := index $images 0  }}  {{/* returns a list */}}
-{{ $sm_img := $image.Resize "x200" }} {{/* resize for mobile */}}
-{{ $lg_img := $image.Resize "x990" }} {{/* resize for full width */}}
+{{ $sm_img := $image.Resize "x235" }} {{/* resize for mobile */}}
+{{ $lg_img := $image.Resize "990x" }} {{/* resize for full width */}}
   <div class="xs-p2">
     <picture>
       <source media="(max-width: 825px)" srcset="{{ $sm_img.RelPermalink }}"/>
@@ -24,10 +24,6 @@
     <header class="post-header">
       <h1 class="post-title center m1 sm-mt3" itemprop="name">{{ .Title }}</h1>
     </header>
-
-    <div class="px2 mt3 clearfix">
-      <div class="sm-col-8 mx-auto" itemprop="description">{{.Content}}</div>
-    </div>
 
     <div class="clearfix mt3">
       {{ with .Params.yield }}
@@ -138,6 +134,13 @@
     </div>
 
     {{ end }}
+
+
+    {{/* display post content after recipe instead of before */}}
+    <div class="px2 mt3 clearfix">
+      <div class="sm-col-8 mx-auto" itemprop="description">{{.Content}}</div>
+    </div>
+
     <!-- end components -->
     <br />
 
