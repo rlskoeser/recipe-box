@@ -15,3 +15,14 @@ body {
 h1, h2 /* h3 /* h4, h5, h6 */ {
     font-family: 'kaushan_scriptregular', Helvetica, sans-serif;
 }
+
+/* adjust ingredient/instruction styles so text can be inside the label */
+
+.checkbox-label {
+    width:  auto;
+    height:  auto;
+}
+
+.checkbox-label .input-title {
+    margin-left:  2.5em;
+}
