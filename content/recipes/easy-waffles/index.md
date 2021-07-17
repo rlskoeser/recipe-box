@@ -3,12 +3,12 @@ layout: recipe
 date: 2021-07-05T10:43:05-04:00
 draft: false
 title: "Quick & Easy Breakfast Waffles" 
-image: 
+image: waffles.jpg
 imagecredit: 
 YouTubeID:
 authorName: Dorie Greenspan
 authorURL: # URL of their home website
-sourceName: Waffles from morning to midnight
+sourceName: Plain-and-Easy Breakfast Quickies
 sourceURL: # Actual URL of the recipe itself
 category: breakfast
 cuisine: # The region associated with your recipe. For example, "French", Mediterranean", or "American".
