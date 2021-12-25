@@ -21,12 +21,12 @@ ingredients:
 - 1 8-oz package cream cheese, softened
 - 1 1-oz package Ranch dressing mix
 - 1 cup chopped cooked bacon
-- 2 cups shredded cheddar cheese
+- 2 cups shredded cheddar cheese (~ 1 8oz package)
 - 1 16-oz container sour cream
-- 2 cups chopped cooked chicken
+- 2 cups chopped cooked chicken (or 2 cans chicken)
 
 directions:
-- Preheat oven to 400˚F. Spary a 2 quart baking dish with cooking spray and set aside.
-- In a bowl, com bine all ingredients, mixing well. Pour into the baking dish.
+- Preheat oven to 400˚F. Spray a 2 quart baking dish with cooking spray and set aside.
+- In a bowl, combine all ingredients, mixing well. Pour into the baking dish.
 - Bake uncovered for 25 to 30 minutes, until hot and bubbly
 ---
