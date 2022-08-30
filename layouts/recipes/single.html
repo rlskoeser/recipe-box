@@ -9,14 +9,22 @@
 {{ with .Params.Image }}
     {{ $images := resources.Get . }}
 {{ end }}
-{{ $image := index $images 0  }}  {{/* returns a list */}}
-{{ $sm_img := $image.Resize "x235" }} {{/* resize for mobile */}}
-{{ $lg_img := $image.Resize "990x" }} {{/* resize for full width */}}
+{{ $image := index $images 0  }}  {{/* returns a list; get the first one */}}
+{{/* add 2x versions, render with width: 235, 470, 990, 1980 */}}
+{{ $img_235 := $image.Resize "235x" }} {{/* ~ mobile */}}
+{{ $img_470 := $image.Resize "470x" }} {{/* ~ mobile 2x */}}
+{{ $img_990 := $image.Resize "990x" }} {{/* ~ desktop */}}
+{{ $img_1980 := $image.Resize "1980x" }} {{/* ~ desktop 2x*/}}
   <div class="xs-p2">
-    <picture>
-      <source media="(max-width: 825px)" srcset="{{ $sm_img.RelPermalink }}"/>
-      <img itemprop="image" src="{{ $lg_img.RelPermalink }}" />
-    </picture>
+    {{/* image sizes are roughly: 90% for desktop, 75% for mobile */}}
+    <img
+     sizes="(max-width: 825px) 75vw, 90vw"
+     srcset="{{ $img_235.RelPermalink }} 235w,
+             {{ $img_470.RelPermalink }} 470w,
+             {{ $img_990.RelPermalink }} 990w,
+             {{ $img_1980.RelPermalink }} 1980w"
+     src="{{ $img_990.RelPermalink }}"/>
+     {{/* TODO: alt text */}}
   </div>
 
   <article class="post-content px2">
