@@ -20,9 +20,9 @@ cookTime: 4-7 minutes (per waffle batch)
 ingredients:
 - 1 large sweet potato cooked (about ¾ cup mashed)
 - ½ cup rolled oats
-- ½ cup flour (mixture of your choice)
 - ½ cup milk or kefir
 - 2 eggs
+- ½ cup flour (mixture of your choice)
 - 1 teaspoon baking powder
 - ¾ teaspoon cinnamon
 - ¼ teaspoon salt
