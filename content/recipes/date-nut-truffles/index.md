@@ -2,17 +2,16 @@
 layout: recipe
 date: 2022-12-26T16:49:16-05:00
 title: "Date Nut Truffles" 
-image: truffles.jpg
+image:  truffles.jpg
 imagecredit: 
-authorName: 
-authorURL: # URL of their home website
 sourceName: Minimalist Baker
 sourceURL: https://minimalistbaker.com/10-minute-chocolate-truffles-date-sweetened/#wprm-recipe-container-46029
 category: dessert
 cuisine: # The region associated with your recipe. For example, "French", Mediterranean", or "American".
-tags: # You don't have to have 3, feel free to have 10, 1, or none
+tags:
   - healthy
   - food processor
+  - dates
 yield: 16
 prepTime: 10 minutes
 cookTime: 0
