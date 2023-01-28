@@ -74,7 +74,7 @@
 
         {{ with .Params.Ingredients }}
         <h4 class="blue mt0 mb2 xs-center">{{ i18n "ingredients" }}</h4>
-        <ul itemprop="ingredients">
+          <ul itemprop="ingredients">
           <!-- list ingredients that make up recipe -->
           {{ if reflect.IsMap . }}
             {{ range $subheading, $ingredients := . }}
@@ -90,7 +90,7 @@
             {{ end }}
           {{ else }}
             {{ range . }}
-            <li itemprop="recipeIngredient"></li>
+            <li itemprop="recipeIngredient">
             {{ with ( . | markdownify) }}{{ partial "recipe_item.html" . }}{{ end }}
             </li>
             {{ end }} 
