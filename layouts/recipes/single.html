@@ -49,6 +49,11 @@
         <h4 class="blue mt0 mb2 xs-center">{{ i18n "cookTime" }}: {{ . }}</h4>
       </div>
       {{ end }}
+      {{ with .Params.totalTime }}
+      <div class="sm-col sm-col-2">
+        <h4 class="blue mt0 mb2 xs-center">{{ i18n "totalTime" | default "Total time" }}: {{ . }}</h4>
+      </div>
+      {{ end }}
     </div>
 
     <!-- call up recipe and directions -->
@@ -71,10 +76,24 @@
         <h4 class="blue mt0 mb2 xs-center">{{ i18n "ingredients" }}</h4>
         <ul itemprop="ingredients">
           <!-- list ingredients that make up recipe -->
-          {{ range . }}
-          <li itemprop="recipeIngredient">
+          {{ if reflect.IsMap . }}
+            {{ range $subheading, $ingredients := . }}
+            <li><h5>{{ $subheading }}</h5>
+              <ul>
+                {{ range $ingredients }}
+                  <li itemprop="recipeIngredient">
+                    {{ with ( . | markdownify) }}{{ partial "recipe_item.html" . }}{{ end }}
+                  </li>
+                {{ end }}
+              </ul>
+            </li>
+            {{ end }}
+          {{ else }}
+            {{ range . }}
+            <li itemprop="recipeIngredient"></li>
             {{ with ( . | markdownify) }}{{ partial "recipe_item.html" . }}{{ end }}
-          </li>
+            </li>
+            {{ end }} 
           {{ end }}
         </ul>
         {{ end }}
