@@ -12,7 +12,7 @@ category: breakfast
 cuisine: American
 tags: 
   - sous vide
-yield: 8
+yield: 6-8 jars 
 prepTime: 20 minutes
 cookTime: 1 hour
 
