@@ -18,8 +18,8 @@ ingredients:
 - 2/3 c. molasses or honey
 - 1 c. lukewarm mashed potatoes
 - 1 1/2 tsp. salt
-- 7 - 7 1/2 c. wheat flour
-- 2/2 c. oil
+- 7 - 7 1/2 c. wheat flour, half white/wheat, or mix of choice
+- 2/3 c. oil
 - 2 eggs
 
 directions:

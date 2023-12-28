@@ -29,11 +29,11 @@ ingredients:
 
 directions:
 - Preheat oven to 325˚F.
-- Grease and flour square pan 9x9 inches _or_ 9x13 for thinner bread that cooks faster.
+- Grease and flour 9x9 or 9x13 pan depending on desired thickness.
 - Add all ingredients to a mixer and beat on low speed until mixed, scraping frequently.
 - Beat thoroughly on higher speed, scraping occasionally, until smooth.
 - Pour into the pan.
-- Bake **50 to 55 minutes** for 9x9 or **30 minutes* for 9x13 pan; use a toothpick in the center to test doneness.
+- Bake **50 to 55 minutes** for 9x9 or **30 minutes** for 9x13 pan; use a toothpick in the center to test doneness.
 ---
 
 For traditional thicker gingerbread, cook in a 9x9 or double and cook in a 9x13. For a faster-cooking option, cook this recipe in a 9x13 for shorter time.
