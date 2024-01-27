@@ -10,11 +10,16 @@
     {{ $images := resources.Get . }}
 {{ end }}
 {{ $image := index $images 0  }}  {{/* returns a list; get the first one */}}
-{{/* add 2x versions, render with width: 235, 470, 990, 1980 */}}
-{{ $img_235 := $image.Resize "235x" }} {{/* ~ mobile */}}
-{{ $img_470 := $image.Resize "470x" }} {{/* ~ mobile 2x */}}
-{{ $img_990 := $image.Resize "990x" }} {{/* ~ desktop */}}
-{{ $img_1980 := $image.Resize "1980x" }} {{/* ~ desktop 2x*/}}
+{{ if $image }}
+	{{/* resize to max width, then crop for height. (could maybe be bigger on mobile...)  */}}
+    {{ $image = $image.Resize "1980x" }}
+    {{ $cropToSize := printf "%dx%d" $image.Width (int (math.Min $image.Height 900)) }}
+    {{ $image = $image.Crop $cropToSize }}
+    {{/* add 2x versions, render with width: 235, 470, 990, 1980 */}}
+	{{ $img_235 := $image.Resize "235x" }} {{/* ~ mobile */}}
+	{{ $img_470 := $image.Resize "470x" }} {{/* ~ mobile 2x */}}
+	{{ $img_990 := $image.Resize "990x" }} {{/* ~ desktop */}}
+	{{ $img_1980 := $image.Resize "1980x" }} {{/* ~ desktop 2x*/}}
   <div class="xs-p2">
     {{/* image sizes are roughly: 90% for desktop, 75% for mobile */}}
     <img
@@ -26,7 +31,7 @@
      src="{{ $img_990.RelPermalink }}"/>
      {{/* TODO: alt text */}}
   </div>
-
+  {{ end }}
   <article class="post-content px2">
     <!-- call up the main recipe title and content -->
     <header class="post-header">
@@ -93,7 +98,7 @@
             <li itemprop="recipeIngredient">
             {{ with ( . | markdownify) }}{{ partial "recipe_item.html" . }}{{ end }}
             </li>
-            {{ end }} 
+            {{ end }}
           {{ end }}
         </ul>
         {{ end }}
@@ -200,7 +205,7 @@
          {{end}}
       {{end}}
     </div>
-    
+
   </article>
 </div>
 {{ end }}
