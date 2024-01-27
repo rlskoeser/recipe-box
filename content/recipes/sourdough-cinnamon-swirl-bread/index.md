@@ -1,23 +1,23 @@
 ---
 layout: recipe
 date: 2023-01-28T14:43:57-05:00
-title: "Sourdough Cinnamon Swirl Bread" 
-image: 
-imagecredit: 
-YouTubeID: 
+title: "Sourdough Cinnamon Swirl Bread"
+image: swirl-bread-loaf.png
+imagecredit: RSK
+YouTubeID:
 authorName: Charlotte Rutledge
 authorURL: https://www.kingarthurbaking.com/author/charlotte-rutledge
 sourceName: King Arthur Baking Company
 sourceURL: https://www.kingarthurbaking.com/recipes/cinnamon-raisin-sourdough-bread-recipe
 category: breakfast
 cuisine: American
-tags: 
+tags:
   - sourdough
   - bread
 yield: 1 loaf
 prepTime: 25 minutes
 cookTime: 40-45 minutes
-totalTime: 3 1/2 hours 
+totalTime: 3 1/2 hours
 
 ingredients:
   dough ingredients:

@@ -2,16 +2,17 @@
 layout: recipe
 date: 2023-12-23T12:10:53-05:00
 title: "Gingerbread"
-#image: awesome-recipe-image.jpg # Name of image in recipe bundle
-#imagecredit: https://placekitten.com/600/800 # URL to image source page, website, or creator
+image: gingerbread-almost-gone.jpg
+imagecredit: RSK
 #authorName: # Name of the recipe/article author
 #authorURL: # URL of their home website
 sourceName: Betty Crocker
 #sourceURL: # Actual URL of the recipe itself
 category: breakfast
 cuisine: American
-tags: # You don't have to have 3, feel free to have 10, 1, or none
+tags:
   - bread
+  - breakfast
 yield: 9 - 12 servings
 prepTime: 15
 cookTime: 30-55 minutes

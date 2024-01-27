@@ -2,8 +2,8 @@
 layout: recipe
 date: 2023-12-23T11:57:59-05:00
 title: "Refrigerator Potato Bread"
-#image: awesome-recipe-image.jpg # Name of image in recipe bundle
-#imagecredit: https://placekitten.com/600/800 # URL to image source page, website, or creator
+image: cinnamon-rolls.jpg
+imagecredit: RSK
 sourceName: Betty Crocker
 category: dinner
 tags:
@@ -33,3 +33,5 @@ directions:
 - Cover and let rise until double, about  1 1/2 - 2 hours.
 - If making rolls, bake at **400F** for **12-15 minutes**. If making loaves, bake at **350F** for **30 minutes**.
 ---
+
+This versatile dough can be used for loaves of bread, rolls, or even cinnamon rolls (pictured).
