@@ -14,9 +14,9 @@ cuisine: Scandinavian
 tags: 
   - cardamom
   - bread
-yield: 8
-prepTime: 15
-cookTime: 45
+yield: 16
+prepTime: 3 hours
+cookTime: 20
 
 ingredients:
   dough ingredients:
