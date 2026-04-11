@@ -13,6 +13,7 @@ cuisine: # The region associated with your recipe. For example, "French", Medite
 tags: 
   - waffles
   - sweet potatoes
+  - food processor
 yield: 8 waffles
 prepTime: 15
 cookTime: 4-7 minutes (per waffle batch)
